@@ -1,0 +1,239 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/************************/
+.wrap{
+    margin-left: 360px;
+    margin-right: 360px;
+}
+.header h1{
+    margin-top: 40px;
+    margin-bottom: 24px;
+    text-align: left;
+    font-family: SF Pro;
+    font-size: 80px;
+    color: #000000;
+    opacity: 1;
+}
+.header hr{
+    border: 2px solid #000000;
+    margin-bottom: 48px;
+}
+.header img{
+    height: 324px;
+    width: 324px;
+    margin-bottom: 48px;
+}
+.content1{
+    margin-bottom: 64px;
+}
+.content1 hr{
+    border: 1px solid #000000;
+    opacity: 1;
+}
+.content1 h1{
+    font-size: 32px;
+    font: normal normal medium 32px/48px PingFang TC;
+    color: #000000;
+    opacity: 1;
+    margin-right: 16px;
+    display: inline;
+}
+.content1 h2{
+    font-size: 24px;
+    font: normal normal 600 24px/36px SF Pro Text;
+    color: #A00404;
+    opacity: 1;
+    display: inline;
+}
+.content1 p{
+    font-size: 24px;
+    font: normal normal 300 24px/36px PingFang TC;
+    line-height: 36px;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 24px;
+}
+.footer{
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    background: #415165 0% 0% no-repeat padding-box;
+    height: 460px;
+    margin-bottom: 64px;
+    padding-top: 24px;
+}
+.footer hr{
+    width: 996px;
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+.footer h1{
+    font-family: PingFang TC;
+    font-size: 32px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-right: 16px;
+    display: inline;
+    margin-left: 625px;
+}
+.footer h2{
+    font-family: SF Pro;
+    font-size: 24px;
+    color: #FFFFFF;
+    opacity: 1;
+    display: inline;
+}
+.footer .left-line{
+    border-left: 1px solid #96A9C4;
+    width: 0px;
+    height: 300px;
+    position: absolute;
+    margin-left: 600px;
+}
+.footer p{
+    border-left-style: 1px solid #96A9C4;
+    font: normal normal 300 24px/36px PingFang TC;
+    margin-bottom: 8px;
+    margin-left: 625px;
+}
+.content2 h1{
+    font-size: 32px;
+    font: normal normal medium 32px/48px PingFang TC;
+    color: #000000;
+    opacity: 1;
+    margin-right: 16px;
+    display: inline;
+}
+.content2 h2{
+    font-size: 24px;
+    font: normal normal 600 24px/36px SF Pro Text;
+    color: #A00404;
+    opacity: 1;
+    display: inline;
+}
+.content2 hr{
+    border: 1px solid #000000;
+    margin-bottom: 16px;
+    opacity: 1;
+}
+.content2 .line{
+    border-left: 1px solid #96A9C4;
+    width: 0px;
+    height: 654px;
+    position: absolute;
+    margin-left: 24px;
+}
+.content2 h3{
+    font: normal normal medium 24px/36px PingFang TC;
+    font-size: 24px;
+    margin-bottom: 24px;
+    margin-left: 48px;
+}
+.content2 h4{
+    font: normal normal medium 24px/36px PingFang TC;
+    font-size: 24px;
+    margin-left: 48px;
+}
+.content2 img{
+    height: 100px;
+    margin-left: 48px;
+}
+.content2 .p1{
+    width: 642px;
+    font: normal normal 300 20px/30px PingFang TC;
+    font-size: 20px;
+    margin-left: 48px;
+    margin-bottom: 24px;
+}
+.content2 .p2{
+    font: normal normal 300 20px/30px PingFang TC;
+    margin-left: 48px;
+    margin-bottom: 80px;
+}
+.footer2{
+    text-align: center;
+    top: 2606px;
+    left: 0px;
+    width: auto;
+    height: 400px;
+    font-family: SF Pro;
+    font-size: 24px;
+    color: #FFFFFF;
+    background: #415165 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 24px;
+}
+.footer2 h1{
+    font-size: 32px;
+    font: normal normal medium 32px/48px PingFang TC;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-right: 16px;
+    padding-top: 24px;
+    display: inline;
+}
+.footer2 hr{
+    width: 996px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.footer2 h2{
+    font-family: SF Pro;
+    font-size: 24px;
+    color: #FFFFFF;
+    opacity: 1;
+    display: inline;
+}
+.footer2 p{
+    margin-bottom: 16px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.item img{
+    height: 48px;
+    width: 48px;
+    margin-left: 24px;
+}
